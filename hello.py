@@ -1,2 +1,7 @@
+from lib import A
+
+
+
 name = input()
-print(f"hello {name}")
+a = A(name)
+print(f"hello {a.data}")
